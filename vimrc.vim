@@ -15,6 +15,7 @@
 :set nowrap
 :set completeopt-=preview 
 :set hlsearch
+:set clipboard+=unnamedplus
 :command TT bot new | terminal 
 :au BufEnter *.js :setlocal tabstop=2 
 :au BufEnter *.js :set shiftwidth=2 shiftwidth=2

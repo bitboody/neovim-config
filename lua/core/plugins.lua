@@ -30,6 +30,8 @@ return require('packer').startup(function(use)
 	use 'easymotion/vim-easymotion'
 	use 'andweeb/presence.nvim'
 	use 'romgrk/barbar.nvim'
+	use 'tpope/vim-commentary'
+	use 'tpope/vim-fugitive'
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
