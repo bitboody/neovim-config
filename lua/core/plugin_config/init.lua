@@ -5,4 +5,4 @@ require('core.plugin_config.telescope')
 require('core.plugin_config.barbar')
 require('core.plugin_config.lualine')
 
-vim.cmd("colorscheme photon")
+vim.cmd("colorscheme gruvbox")

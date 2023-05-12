@@ -15,7 +15,6 @@ return require('packer').startup(function(use)
 	use 'wbthomason/packer.nvim'
 	-- My plugins here
 
-	use 'hachy/eva01.vim'
 	use 'ellisonleao/gruvbox.nvim'
 	use 'nvim-tree/nvim-tree.lua'
 	use 'nvim-tree/nvim-web-devicons'
@@ -32,12 +31,7 @@ return require('packer').startup(function(use)
 	use 'tpope/vim-commentary'
 	use 'tpope/vim-fugitive'
 	use 'axvr/photon.vim'
-	use 'brplcc/evl01'
-	use 'preservim/vim-colors-pencil'
-	use 'axvr/raider.vim'
-	use 'tpope/vim-surround'
 	use 'm4xshen/autoclose.nvim'
-	use 'andreypopp/vim-colors-plain'
 	use 'nvim-lualine/lualine.nvim'
 
 	-- Automatically set up your configuration after cloning packer.nvim
