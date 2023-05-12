@@ -19,7 +19,6 @@ return require('packer').startup(function(use)
 	use 'ellisonleao/gruvbox.nvim'
 	use 'nvim-tree/nvim-tree.lua'
 	use 'nvim-tree/nvim-web-devicons'
-	use 'nvim-lualine/lualine.nvim'
 	use 'nvim-treesitter/nvim-treesitter'
 	use {
 		'nvim-telescope/telescope.nvim',
@@ -33,6 +32,13 @@ return require('packer').startup(function(use)
 	use 'tpope/vim-commentary'
 	use 'tpope/vim-fugitive'
 	use 'axvr/photon.vim'
+	use 'brplcc/evl01'
+	use 'preservim/vim-colors-pencil'
+	use 'axvr/raider.vim'
+	use 'tpope/vim-surround'
+	use 'm4xshen/autoclose.nvim'
+	use 'andreypopp/vim-colors-plain'
+	use 'nvim-lualine/lualine.nvim'
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
