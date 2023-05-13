@@ -33,6 +33,7 @@ return require('packer').startup(function(use)
 	use 'axvr/photon.vim'
 	use 'm4xshen/autoclose.nvim'
 	use 'nvim-lualine/lualine.nvim'
+	use 'shaunsingh/solarized.nvim'
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins

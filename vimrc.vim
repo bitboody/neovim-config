@@ -63,7 +63,7 @@ inoremap jj <ESC>
 tnoremap jj <C-\><C-n>
 tnoremap <ESC> <C-\><C-n>
 
-inoremap <C-f> <Esc>o
+inoremap <C-Enter> <Esc>o
 noremap! <C-BS> <C-w>
 noremap! <C-h> <C-w>
 
