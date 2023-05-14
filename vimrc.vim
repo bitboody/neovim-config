@@ -27,7 +27,6 @@
 
 let mapleader = " "
 
-" Easy motion
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
 
 nmap s <Plug>(easymotion-overwin-f)
@@ -38,7 +37,6 @@ let g:EasyMotion_smartcase = 1
 map <Leader>j <Plug>(easymotion-j)
 map <Leader>k <Plug>(easymotion-k)
 
-" Other mappings 
 map <C-h> <C-W>h
 map <C-j> <C-W>j
 map <C-k> <C-W>k

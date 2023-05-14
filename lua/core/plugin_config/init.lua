@@ -4,5 +4,8 @@ require('core.plugin_config.treesitter')
 require('core.plugin_config.telescope')
 require('core.plugin_config.barbar')
 require('core.plugin_config.lualine')
+require('core.plugin_config.treesitter-context')
+require('core.plugin_config.harpoon')
+require('core.plugin_config.undotree')
 
 vim.cmd("colorscheme gruvbox")
