@@ -1,5 +1,5 @@
 require('core.plugin_config.themes')
-require('core.plugin_config.coc')
+-- require('core.plugin_config.coc')
 require('core.plugin_config.nvim-tree')
 require('core.plugin_config.treesitter')
 require('core.plugin_config.telescope')
