@@ -26,61 +26,57 @@
 :filetype indent on
 
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
-vmap <leader>fc  <Plug>(coc-format-selected)
-nmap <leader>fc  <Plug>(coc-format-selected)
 
 let mapleader = " "
 
-let g:EasyMotion_do_mapping = 0 " Disable default mappings
+let g:easymotion_do_mapping = 0 " disable default mappings
 
-nmap s <Plug>(easymotion-overwin-f)
-nmap s <Plug>(easymotion-overwin-f2)
+nmap s <plug>(easymotion-overwin-f)
+nmap s <plug>(easymotion-overwin-f2)
 
-let g:EasyMotion_smartcase = 1
+let g:easymotion_smartcase = 1
 
-map <Leader>j <Plug>(easymotion-j)
-map <Leader>k <Plug>(easymotion-k)
+map <leader>j <plug>(easymotion-j)
+map <leader>k <plug>(easymotion-k)
 
-map <C-h> <C-W>h
-map <C-j> <C-W>j
-map <C-k> <C-W>k
-map <C-l> <C-W>l
+map <c-h> <c-w>h
+map <c-j> <c-w>j
+map <c-k> <c-w>k
+map <c-l> <c-w>l
 
-inoremap <C-h> <C-o>h
-inoremap <C-j> <C-o>j
-inoremap <C-k> <C-o>k
-inoremap <C-l> <C-o>l
+inoremap <c-h> <c-o>h
+inoremap <c-j> <c-o>j
+inoremap <c-k> <c-o>k
+inoremap <c-l> <c-o>l
 
-nnoremap <A-j> :m .+1<CR>==
-nnoremap <A-k> :m .-2<CR>==
-inoremap <A-j> <Esc>:m .+1<CR>==gi
-vnoremap <A-j> :m '>+1<CR>gv=gv
-inoremap <A-k> <Esc>:m .-2<CR>==gi
-vnoremap <A-k> :m '<-2<CR>gv=gv
+nnoremap <a-j> :m .+1<cr>==
+nnoremap <a-k> :m .-2<cr>==
+inoremap <a-j> <esc>:m .+1<cr>==gi
+vnoremap <a-j> :m '>+1<cr>gv=gv
+inoremap <a-k> <esc>:m .-2<cr>==gi
+vnoremap <a-k> :m '<-2<cr>gv=gv
 
-nmap <Leader>r :NERDTreeFocus<cr>R<c-w><c-p>
+inoremap jj <esc>
 
-inoremap jj <ESC>
+tnoremap jj <c-\><c-n>
+tnoremap <esc> <c-\><c-n>
 
-tnoremap jj <C-\><C-n>
-tnoremap <ESC> <C-\><C-n>
+inoremap <c-enter> <esc>o
+noremap! <c-bs> <c-w>
+noremap! <c-h> <c-w>
 
-inoremap <C-Enter> <Esc>o
-noremap! <C-BS> <C-w>
-noremap! <C-h> <C-w>
+:nmap <esc>> :vertical res +1<enter>
+:nmap <esc>< :vertical res -1<enter>
+:nmap <a-?> :res +1<enter>
+:nmap <a-m> :res -1<enter>
 
-:nmap <Esc>> :vertical res +1<Enter>
-:nmap <Esc>< :vertical res -1<Enter>
-:nmap <A-?> :res +1<Enter>
-:nmap <A-M> :res -1<Enter>
+nnoremap <s-k> <c-u>k
+nnoremap <s-j> <c-d>j
 
-nnoremap <S-k> <C-u>k
-nnoremap <S-j> <C-d>j
+nnoremap <s-l> <s-$> 
+nnoremap <s-h> <s-^> 
 
-nnoremap <S-l> <S-$> 
-nnoremap <S-h> <S-^> 
-
-inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<TAB>"
-inoremap <silent><expr> <cr> "\<c-g>u\<CR>"
+inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<c-g>u\<tab>"
+inoremap <silent><expr> <cr> "\<c-g>u\<cr>"
 
 nmap <silent><leader>rn <Plug>(coc-rename)
