@@ -26,6 +26,8 @@
 :filetype indent on
 
 command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
+vmap <leader>fc  <Plug>(coc-format-selected)
+nmap <leader>fc  <Plug>(coc-format-selected)
 
 let mapleader = " "
 
