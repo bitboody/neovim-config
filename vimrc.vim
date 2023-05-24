@@ -25,6 +25,8 @@
 :au BufEnter *.css :set shiftwidth=2 shiftwidth=2
 :filetype indent on
 
+command! -nargs=0 Prettier :CocCommand prettier.forceFormatDocument
+
 let mapleader = " "
 
 let g:EasyMotion_do_mapping = 0 " Disable default mappings
