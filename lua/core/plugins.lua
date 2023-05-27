@@ -27,7 +27,6 @@ return require('packer').startup(function(use)
 	use 'neoclide/coc.nvim'
 	use 'easymotion/vim-easymotion'
 	use 'andweeb/presence.nvim'
-	use 'romgrk/barbar.nvim'
 	use 'tpope/vim-commentary'
 	use 'tpope/vim-fugitive'
 	use 'axvr/photon.vim'

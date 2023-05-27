@@ -16,7 +16,7 @@
 :set completeopt-=preview 
 :set hlsearch
 :set clipboard+=unnamedplus
-:command TT bot new | terminal 
+:command NT bot new | terminal 
 :au BufEnter *.js :setlocal tabstop=2 
 :au BufEnter *.js :set shiftwidth=2 shiftwidth=2
 :au BufEnter *.ts :setlocal tabstop=2 
@@ -61,9 +61,7 @@ inoremap jj <esc>
 tnoremap jj <c-\><c-n>
 tnoremap <esc> <c-\><c-n>
 
-inoremap <c-enter> <esc>o
-noremap! <c-bs> <c-w>
-noremap! <c-h> <c-w>
+imap <C-Enter> <Esc>o
 
 :nmap <esc>> :vertical res +1<enter>
 :nmap <esc>< :vertical res -1<enter>
@@ -73,8 +71,8 @@ noremap! <c-h> <c-w>
 nnoremap <s-k> <c-u>k
 nnoremap <s-j> <c-d>j
 
-nnoremap <s-l> <s-$> 
-nnoremap <s-h> <s-^> 
+nnoremap <s-l> <s-$>
+nnoremap <s-h> <s-^>
 
 inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<c-g>u\<tab>"
 inoremap <silent><expr> <cr> "\<c-g>u\<cr>"
