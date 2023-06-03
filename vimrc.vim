@@ -78,3 +78,6 @@ inoremap <silent><expr> <tab> pumvisible() ? coc#_select_confirm() : "\<c-g>u\<t
 inoremap <silent><expr> <cr> "\<c-g>u\<cr>"
 
 nmap <silent><leader>rn <Plug>(coc-rename)
+
+nnoremap ; ci
+nnoremap <A-;> ci"

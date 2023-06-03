@@ -32,7 +32,6 @@ return require('packer').startup(function(use)
 	use 'axvr/photon.vim'
 	use 'm4xshen/autoclose.nvim'
 	use 'nvim-lualine/lualine.nvim'
-	use 'shaunsingh/solarized.nvim'
 	use('nvim-treesitter/nvim-treesitter-context', {run = ':TSUpdate'})
 	use 'theprimeagen/harpoon'
 	use 'mbbill/undotree'
@@ -40,6 +39,8 @@ return require('packer').startup(function(use)
 	use 'stevearc/oil.nvim'
 	use 'mhartington/formatter.nvim'
 	use 'akinsho/bufferline.nvim'
+	use 'rose-pine/neovim'
+	use 'lifepillar/vim-solarized8'
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
