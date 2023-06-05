@@ -41,6 +41,8 @@ return require('packer').startup(function(use)
 	use 'akinsho/bufferline.nvim'
 	use 'rose-pine/neovim'
 	use 'lifepillar/vim-solarized8'
+	use 'mswift42/vim-themes'
+	use 'airblade/vim-gitgutter'
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
