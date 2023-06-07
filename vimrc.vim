@@ -81,3 +81,5 @@ nmap <silent><leader>rn <Plug>(coc-rename)
 
 nnoremap ; ci
 nnoremap <A-;> ci"
+
+nnoremap <silent> <leader>lg :LazyGit<CR>

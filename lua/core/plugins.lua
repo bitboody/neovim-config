@@ -29,20 +29,18 @@ return require('packer').startup(function(use)
 	use 'andweeb/presence.nvim'
 	use 'tpope/vim-commentary'
 	use 'tpope/vim-fugitive'
-	use 'axvr/photon.vim'
 	use 'm4xshen/autoclose.nvim'
 	use 'nvim-lualine/lualine.nvim'
 	use('nvim-treesitter/nvim-treesitter-context', {run = ':TSUpdate'})
 	use 'theprimeagen/harpoon'
 	use 'mbbill/undotree'
-	use 'bluz71/vim-moonfly-colors'
 	use 'stevearc/oil.nvim'
 	use 'mhartington/formatter.nvim'
 	use 'akinsho/bufferline.nvim'
-	use 'rose-pine/neovim'
 	use 'lifepillar/vim-solarized8'
 	use 'mswift42/vim-themes'
 	use 'airblade/vim-gitgutter'
+	use 'kdheepak/lazygit.nvim'
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
