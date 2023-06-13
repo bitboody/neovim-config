@@ -63,10 +63,10 @@ tnoremap <esc> <c-\><c-n>
 
 imap <C-Enter> <Esc>o
 
-:nmap <esc>> :vertical res +1<enter>
-:nmap <esc>< :vertical res -1<enter>
-:nmap <a-?> :res +1<enter>
-:nmap <a-m> :res -1<enter>
+:nmap <a-M> :vertical res +1<enter>
+:nmap <a-?> :vertical res -1<enter>
+:nmap <a-m> :res +1<enter>
+:nmap <a-/> :res -1<enter>
 
 nnoremap <s-k> <c-u>k
 nnoremap <s-j> <c-d>j
