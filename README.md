@@ -1,2 +1,2 @@
 # neovim-config
-My own Neovim configuration because NvChad sucks
+My own Neovim configuration
