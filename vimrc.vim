@@ -14,8 +14,9 @@
 :set ve+=onemore
 :set nowrap
 :set completeopt-=preview 
-:set hlsearch
-:set clipboard+=unnamedplus
+:set hlsearch 
+vnoremap <C-c> "*y
+" :set clipboard+=unnamedplus
 :command NT bot new | terminal 
 :au BufEnter *.js :setlocal tabstop=2 
 :au BufEnter *.js :set shiftwidth=2 shiftwidth=2

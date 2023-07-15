@@ -1,5 +1,5 @@
 function theme(color)
-	color = color or 'solarized8_flat'
+	color = color or 'gruvbox'
 	vim.cmd.colorscheme(color)
 
 	-- Make background transparent
