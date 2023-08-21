@@ -71,6 +71,8 @@ imap <C-Enter> <Esc>o
 
 nnoremap <s-k> <c-u>k
 nnoremap <s-j> <c-d>j
+vnoremap <s-k> <c-u>k
+vnoremap <s-j> <c-d>j
 
 nnoremap <s-l> <s-$>
 nnoremap <s-h> <s-^>
