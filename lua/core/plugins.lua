@@ -42,6 +42,7 @@ return require('packer').startup(function(use)
 	use 'airblade/vim-gitgutter'
 	use 'kdheepak/lazygit.nvim'
 	use 'doums/darcula'
+	use 'EdenEast/nightfox.nvim'
 
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
